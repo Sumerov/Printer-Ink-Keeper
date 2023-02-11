@@ -6,22 +6,23 @@ using System.Threading;
 
 namespace InkKeeper
 {
+    
     class inkKeeper {
         private string configPath;
         private DateTime lastDate;
         private DateTime currentDate;
         private int interval;
+        private string printerAppPath;
 
         public inkKeeper() {
-            this.configPath = "config.txt";
+            this.configPath = "config.cfg";
             this.currentDate = DateTime.Now;
             try
             {
                 string[] lines = File.ReadAllLines(this.configPath);
-                string str = "";
                 foreach(string line in lines)
                 {
-                    Console.WriteLine(line);
+                    //Console.WriteLine(line);
                     string[] subs = line.Split('=');
                     string variable = subs[0];
                     string value = subs[1];
@@ -33,26 +34,30 @@ namespace InkKeeper
                         case "lastDate":
                             this.lastDate = DateTime.Parse(value);
                             break;
+                        case "appPath":
+                            this.printerAppPath = value;
+                            break;
                     }
                 }
             } catch (Exception e)
             {
                 string type = e.GetType().ToString();
-                Console.WriteLine(type);
-                this.lastDate = DateTime.Now;
                 if(type == "System.IO.FileNotFoundException") Console.WriteLine("File was not found, creating...");
                 if (type == "System.FormatException") Console.WriteLine("File has incorrect format, creating new one...");
+                this.lastDate = DateTime.Now;
                 this.interval = 5;
+                this.printerAppPath = "C:\\Program Files\\Adobe\\Acrobat DC\\Acrobat\\Acrobat.exe";
                 this.writeData();
             }
         }
 
         public void writeData() 
         {
-            string str = "lastDate= " + this.currentDate.ToString() + "\ninterval= " + this.interval.ToString();
+            string str = "lastDate= " + this.currentDate.ToString() + "\ninterval= " + this.interval.ToString() + "\nappPath= " + this.printerAppPath;
             File.WriteAllText(configPath, str); 
         }
         public string returnPath() { return this.configPath; }
+        public string returnPrintingAppPath() { return this.printerAppPath; }
         public int returnInterval() { return this.interval; }
         public DateTime returnCurrentDate() { return this.currentDate; }
         public DateTime returnLastDate() { return this.lastDate; }
@@ -72,12 +77,13 @@ namespace InkKeeper
                 writeData();
                 string strExeFilePath = System.Reflection.Assembly.GetExecutingAssembly().Location;
                 string strWorkPath = System.IO.Path.GetDirectoryName(strExeFilePath) + "\\PDF";
+                //string strWorkPath = @"c:\temp";
                 string[] files = Directory.GetFiles(@strWorkPath);
                 foreach (string file in files.Where(
                             file => file.ToUpper().Contains(".PDF")))
                 {
-                    Console.WriteLine("priting:" + file);
-                    PDF.PrintPDFs(file);
+                    Console.WriteLine("priting: " + file);
+                    PDF.PrintPDFs(file, this.printerAppPath);
                 }
                 return true;
             }

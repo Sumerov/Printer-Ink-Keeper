@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 
 namespace InkKeeper
 {
     public class PDF
     {
-        public static Boolean PrintPDFs(string pdfFileName)
+        public static Boolean PrintPDFs(string pdfFileName, string printingAppPath)
         {
             try
             {
@@ -16,12 +17,13 @@ namespace InkKeeper
 
                 //Define location of adobe reader/command line
                 //switches to launch adobe in "print" mode
-                proc.StartInfo.FileName =
-                  @"C:\Program Files\Adobe\Acrobat DC\Acrobat\Acrobat.exe";
-                proc.StartInfo.Arguments = String.Format(@"/p /h {0}", pdfFileName);
+                //proc.StartInfo.FileName = @"C:\Program Files\Adobe\Acrobat DC\Acrobat\Acrobat.exe";
+                //proc.StartInfo.FileName = "C:\\Program Files\\Adobe\\Acrobat DC\\Acrobat\\Acrobat.exe";
+                proc.StartInfo.FileName = printingAppPath;
+                proc.StartInfo.Arguments = String.Format(@"/p /h {0}", "\"" + pdfFileName + "\"" );
+                //proc.StartInfo.Arguments = String.Format(@" / p /h {0}",  pdfFileName );
                 proc.StartInfo.UseShellExecute = false;
                 proc.StartInfo.CreateNoWindow = true;
-
                 proc.Start();
                 proc.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
                 if (proc.HasExited == false)

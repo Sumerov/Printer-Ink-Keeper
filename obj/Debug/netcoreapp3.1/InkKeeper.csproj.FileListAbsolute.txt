@@ -14,3 +14,19 @@ D:\OSTATNÍ\InkKeeper\InkKeeper\obj\Debug\netcoreapp3.1\InkKeeper.pdb
 D:\OSTATNÍ\InkKeeper\InkKeeper\obj\Debug\netcoreapp3.1\InkKeeper.genruntimeconfig.cache
 D:\OSTATNÍ\InkKeeper\InkKeeper\obj\Debug\netcoreapp3.1\InkKeeper.Properties.Resources.resources
 D:\OSTATNÍ\InkKeeper\InkKeeper\obj\Debug\netcoreapp3.1\InkKeeper.csproj.GenerateResource.cache
+D:\OSTATNÍ\Printer Ink Keeper\bin\Debug\netcoreapp3.1\InkKeeper.exe
+D:\OSTATNÍ\Printer Ink Keeper\bin\Debug\netcoreapp3.1\InkKeeper.deps.json
+D:\OSTATNÍ\Printer Ink Keeper\bin\Debug\netcoreapp3.1\InkKeeper.runtimeconfig.json
+D:\OSTATNÍ\Printer Ink Keeper\bin\Debug\netcoreapp3.1\InkKeeper.runtimeconfig.dev.json
+D:\OSTATNÍ\Printer Ink Keeper\bin\Debug\netcoreapp3.1\InkKeeper.dll
+D:\OSTATNÍ\Printer Ink Keeper\bin\Debug\netcoreapp3.1\InkKeeper.pdb
+D:\OSTATNÍ\Printer Ink Keeper\obj\Debug\netcoreapp3.1\InkKeeper.csproj.AssemblyReference.cache
+D:\OSTATNÍ\Printer Ink Keeper\obj\Debug\netcoreapp3.1\InkKeeper.Properties.Resources.resources
+D:\OSTATNÍ\Printer Ink Keeper\obj\Debug\netcoreapp3.1\InkKeeper.csproj.GenerateResource.cache
+D:\OSTATNÍ\Printer Ink Keeper\obj\Debug\netcoreapp3.1\InkKeeper.GeneratedMSBuildEditorConfig.editorconfig
+D:\OSTATNÍ\Printer Ink Keeper\obj\Debug\netcoreapp3.1\InkKeeper.AssemblyInfoInputs.cache
+D:\OSTATNÍ\Printer Ink Keeper\obj\Debug\netcoreapp3.1\InkKeeper.AssemblyInfo.cs
+D:\OSTATNÍ\Printer Ink Keeper\obj\Debug\netcoreapp3.1\InkKeeper.csproj.CoreCompileInputs.cache
+D:\OSTATNÍ\Printer Ink Keeper\obj\Debug\netcoreapp3.1\InkKeeper.dll
+D:\OSTATNÍ\Printer Ink Keeper\obj\Debug\netcoreapp3.1\InkKeeper.pdb
+D:\OSTATNÍ\Printer Ink Keeper\obj\Debug\netcoreapp3.1\InkKeeper.genruntimeconfig.cache

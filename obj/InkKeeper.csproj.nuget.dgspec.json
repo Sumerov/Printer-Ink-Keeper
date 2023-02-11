@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OSTATNÍ\\InkKeeper\\InkKeeper\\InkKeeper.csproj": {}
+    "D:\\OSTATNÍ\\Printer Ink Keeper\\InkKeeper.csproj": {}
   },
   "projects": {
-    "D:\\OSTATNÍ\\InkKeeper\\InkKeeper\\InkKeeper.csproj": {
+    "D:\\OSTATNÍ\\Printer Ink Keeper\\InkKeeper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OSTATNÍ\\InkKeeper\\InkKeeper\\InkKeeper.csproj",
+        "projectUniqueName": "D:\\OSTATNÍ\\Printer Ink Keeper\\InkKeeper.csproj",
         "projectName": "InkKeeper",
-        "projectPath": "D:\\OSTATNÍ\\InkKeeper\\InkKeeper\\InkKeeper.csproj",
+        "projectPath": "D:\\OSTATNÍ\\Printer Ink Keeper\\InkKeeper.csproj",
         "packagesPath": "C:\\Users\\Sumerov\\.nuget\\packages\\",
-        "outputPath": "D:\\OSTATNÍ\\InkKeeper\\InkKeeper\\obj\\",
+        "outputPath": "D:\\OSTATNÍ\\Printer Ink Keeper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
