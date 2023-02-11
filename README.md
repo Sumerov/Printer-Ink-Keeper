@@ -9,9 +9,16 @@ The intension is to run app on windows startup. The app will create config file 
 
 ## Installation
 1. Adobe acrobat reader is tested as printing app. However any other printing app can be used. Only what is needed is a path to the exe file.
-2. Copy all files from bin/Debug/netcoreapp3.1 into startup folder (C:\Users\[USERNAME]\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup)
+2. Make a Copy shortcut to exe file in from bin/Debug/netcoreapp3.1 and copy the shortcut into startup folder (C:\Users\[USERNAME]\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup)
 3. Run InkKeeper.exe for the first time. The config.cfg file will be generated for the first time. 
 4. Open config.cfg and update intervals, printer app path and if you want to print immediately update the date to the past.
 
+## More settings
+If you want to use your own PDF, PDF folder is there for you. You can use less Ink per print, but more often interval for example.
+
+
+
 ## buy me a coffee
+[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/Sumerov)
+
 https://www.patreon.com/sumikus
