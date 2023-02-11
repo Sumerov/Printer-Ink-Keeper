@@ -1,0 +1,2 @@
+lastDate= 11.02.2023 19:46:43
+interval= 5

@@ -1,0 +1,15 @@
+D:\OSTATNÍ\InkKeeper\InkKeeper\bin\Release\netcoreapp3.1\InkKeeper.exe
+D:\OSTATNÍ\InkKeeper\InkKeeper\bin\Release\netcoreapp3.1\InkKeeper.deps.json
+D:\OSTATNÍ\InkKeeper\InkKeeper\bin\Release\netcoreapp3.1\InkKeeper.runtimeconfig.json
+D:\OSTATNÍ\InkKeeper\InkKeeper\bin\Release\netcoreapp3.1\InkKeeper.runtimeconfig.dev.json
+D:\OSTATNÍ\InkKeeper\InkKeeper\bin\Release\netcoreapp3.1\InkKeeper.dll
+D:\OSTATNÍ\InkKeeper\InkKeeper\bin\Release\netcoreapp3.1\InkKeeper.pdb
+D:\OSTATNÍ\InkKeeper\InkKeeper\obj\Release\netcoreapp3.1\InkKeeper.Properties.Resources.resources
+D:\OSTATNÍ\InkKeeper\InkKeeper\obj\Release\netcoreapp3.1\InkKeeper.csproj.GenerateResource.cache
+D:\OSTATNÍ\InkKeeper\InkKeeper\obj\Release\netcoreapp3.1\InkKeeper.GeneratedMSBuildEditorConfig.editorconfig
+D:\OSTATNÍ\InkKeeper\InkKeeper\obj\Release\netcoreapp3.1\InkKeeper.AssemblyInfoInputs.cache
+D:\OSTATNÍ\InkKeeper\InkKeeper\obj\Release\netcoreapp3.1\InkKeeper.AssemblyInfo.cs
+D:\OSTATNÍ\InkKeeper\InkKeeper\obj\Release\netcoreapp3.1\InkKeeper.csproj.CoreCompileInputs.cache
+D:\OSTATNÍ\InkKeeper\InkKeeper\obj\Release\netcoreapp3.1\InkKeeper.dll
+D:\OSTATNÍ\InkKeeper\InkKeeper\obj\Release\netcoreapp3.1\InkKeeper.pdb
+D:\OSTATNÍ\InkKeeper\InkKeeper\obj\Release\netcoreapp3.1\InkKeeper.genruntimeconfig.cache
